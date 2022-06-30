@@ -101,17 +101,31 @@
         justify-content: center;
         align-items: center;
     }
-    &__user{
-
-    }
     &__user-photo{
         height: 3.75rem;
         border-radius: 10rem;
         margin-right:1rem;
+    }
+}
+// side navi
 
+.side-nav{
+    &__item{
 
     }
-    &__user-name{
+    &__link{
 
     }
+    &__icon{
+        width:1.75rem;
+        height:1.75rem;
+
+    }
+}
+// legal text
+.legal{
+    font-size: 1.2rem;
+    color: var(--color-grey-light-4);
+    text-align:center;
+    padding:2.5rem;
 }
